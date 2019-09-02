@@ -22,4 +22,9 @@ print(list3)
 
 del list3
 
+########
+
+lis4 = [x for x in range(0,10)]
+print(lis4)
+
     
