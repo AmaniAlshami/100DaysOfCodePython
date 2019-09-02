@@ -12,7 +12,7 @@ def check(color):
         print(f"{color} is not in our colors list")
 check(color)
 
-# repate any item in list 
+# repeat any item in list 
 lis = ["Python"] * 5 
 print(lis)
 
