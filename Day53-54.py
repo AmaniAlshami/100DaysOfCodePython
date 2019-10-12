@@ -1,10 +1,10 @@
-#import Calculate as c 
+import Calculate as c 
 
 
-#print("1 + 8 = ",c.sum(8,1))
-#print("4 - 2 = ",c.sub(4,2))
-#print("6 * 6 = ",c.mult(6,6))
-#print("8 / 2 = ",c.dev(8,2))
+print("1 + 8 = ",c.sum(8,1))
+print("4 - 2 = ",c.sub(4,2))
+print("6 * 6 = ",c.mult(6,6))
+print("8 / 2 = ",c.dev(8,2))
 
 
 ###########################
