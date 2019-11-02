@@ -11,14 +11,14 @@
 
 # challenge 2 
 
-# import mysql.connector
+import mysql.connector
 
-# mydb = mysql.connector.connect(
-#   host="localhost",
-#   user="root",
-#   passwd="",
-#   database="MyEmployee"
-# )
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="",
+  database="MyEmployee"
+)
 
 mycursor = mydb.cursor()
 #mycursor.execute("CREATE DATABASE MyEmployee")
@@ -58,3 +58,7 @@ f = open("challeng3.txt",'r')
 print(f.readlines())
 f.close()
 
+import os 
+
+os.remove("Python.txt")
+os.remove("challeng3.txt")
